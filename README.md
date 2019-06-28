@@ -16,10 +16,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-Tippy::Builder.new(total: 100, gratuity: '23.5').generate # 123.5
-Tippy::Builder.new(total: 100, gratuity: 'high').generate # 125.0
-Tippy::Builder.new(total: 100, gratuity: 'LOW').generate #115.0
-Tippy::Builder.new(total: 100, gratuity: '20').generate #120.0
+TippyRor::Builder.new(total: 100, gratuity: '23.5').generate # 123.5
+TippyRor::Builder.new(total: 100, gratuity: 'high').generate # 125.0
+TippyRor::Builder.new(total: 100, gratuity: 'LOW').generate #115.0
+TippyRor::Builder.new(total: 100, gratuity: '20').generate #120.0
 
 ```
 

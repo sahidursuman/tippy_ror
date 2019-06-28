@@ -1,6 +1,3 @@
 require "tippy_ror/version"
+require "tippy_ror/builder"
 
-module TippyRor
-  class Error < StandardError; end
-  # Your code goes here...
-end
